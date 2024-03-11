@@ -39,7 +39,7 @@ const Header = () => {
           href="https://github.com/prabhjot-arora31/Food_Recipe_Website/blob/main/src/assets/app-debug.apk"
           class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
           style={{ fontFamily: "cursive", cursor: "pointer" }}
-          download="app-debug.apk"
+          download={true}
         >
           Download Android App &nbsp; <i class="fa-solid fa-download"></i>
         </a>
