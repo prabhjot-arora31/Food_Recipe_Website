@@ -28,7 +28,9 @@ const Header = () => {
           >
             Contact
           </a>
-          <a class="mr-5 hover:text-gray-900" style={{ cursor: "pointer" }}>
+          <a class="mr-5 hover:text-gray-900" style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", fontFamily: "cursive" }}
+            >
             About
           </a>
           {/* <a class="mr-5 hover:text-gray-900"></a> */}
