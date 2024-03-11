@@ -1,0 +1,38 @@
+.food_card{
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgb(147, 148, 241);
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: 300px;
+    align-items: center;
+    box-shadow: 6px 6px 18px rgb(5, 9, 241);
+    justify-content: center;
+    transition: .3s ease-in;
+}
+.imgContainer{
+    width: 150px;
+}
+.imgContainer img{
+width: 100%;
+transition: .2s ease-in-out;
+}
+.food_card:hover{
+    background-color: rgb(99,102,241);
+    color: white;
+    .imgContainer img{
+        transform: scale(1.1);
+    }
+    .label{
+        transform: scale(1.1);
+    }
+}
+.food_card h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 7px;
+}
