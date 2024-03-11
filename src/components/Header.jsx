@@ -36,7 +36,7 @@ const Header = () => {
           {/* <a class="mr-5 hover:text-gray-900"></a> */}
         </nav>
         <a
-          href="https://github.com/prabhjot-arora31/Food_Recipe_Website/blob/main/src/assets/app-debug.apk"
+          href="https://raw.githubusercontent.com/prabhjot-arora31/Food_Recipe_Website/main/src/assets/app-debug.apk"
           class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
           style={{ fontFamily: "cursive", cursor: "pointer" }}
           download={true}
